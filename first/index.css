@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(68, 68, 68);
+}
+
+main {
+    height: 90%;
+}
+
+aside {
+    background-color: rgb(215, 215, 215);
+    height: 100%;
+    flex: 1
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+}
+
+.center {
+    flex: 4;
+}
+
+.footer {
+    background-color: rgb(68, 68, 68);
+    height: 10%;
+}
